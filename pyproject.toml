@@ -7,4 +7,5 @@ requires-python = ">=3.13"
 dependencies = [
     "python-dotenv>=1.1.1",
     "websockets>=15.0.1",
+    "twilio>=9.0.0",
 ]

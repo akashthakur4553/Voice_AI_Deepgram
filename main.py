@@ -168,7 +168,7 @@ async def twilio_handler(twilio_ws):
 
 
 async def main():
-    await websockets.serve(twilio_handler, "localhost", 5000)
+    await websockets.serve(twilio_handler, "0.0.0.0", 5000)
     print("Started server.")
     await asyncio.Future()
 
