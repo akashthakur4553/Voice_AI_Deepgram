@@ -4,7 +4,7 @@ A voice AI agent you can **talk to over a real phone call**. It places (or recei
 
 The agent's brain is a single Deepgram WebSocket that combines speech-to-text (listen), an LLM (think), tool/function calling, and text-to-speech (speak). This project bridges Twilio's phone-call audio to that API.
 
-> This is the **telephony** sibling of the browser/Google-Meet version in [`../Exposing_the_code_as_a_api`](../Exposing_the_code_as_a_api). Same agent and tools, but the audio comes from a phone call over Twilio instead of a browser.
+
 
 ---
 
